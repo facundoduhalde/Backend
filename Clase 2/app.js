@@ -31,8 +31,8 @@ class Usuario {
     }
 
     getBookNames() {
-        this.libros.forEach(element => {
-            console.log(element.nombre);
+        this.libros.forEach(book => {
+            console.log(book.nombre);
         });
     }
 }
