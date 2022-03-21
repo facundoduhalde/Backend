@@ -51,7 +51,7 @@ class Contenedor {
     fs.promises.writeFile(`./${this.name}`, '[]') 
       return console.log('Se han borrado todos los registros de la base de datos'); 
     } catch (error) {
-      return `[Falla al borrar] ${error}`
+      return `Ha ocurrido un error en el borrado de los datos: ${error}`
     }
   }
 }
