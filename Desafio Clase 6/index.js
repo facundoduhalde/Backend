@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const Contenedor = require('./container')
-const productos = new Contenedor('producto.txt')
+const productos = new Contenedor('productos.txt')
 
 app.use(express.json())
 
