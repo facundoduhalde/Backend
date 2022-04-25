@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "products": [
+      {
+        "title": "Producto 2",
+        "price": 9520,
+        "description": "Esta es la descripcion del Producto 2",
+        "code": "2",
+        "stock": 1000,
+        "thumbnail": "http://localhost:8080/images/1650908102590.jpeg",
+        "id": 2,
+        "timestamp": 1650908102594
+      }
+    ],
+    "timestamp": 1650908118252
+  }
+]
