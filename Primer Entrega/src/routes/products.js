@@ -4,7 +4,7 @@ import ProductContainer from "../classes/ProductContainer.js";
 import { __dirname, authMiddleware } from "../utils.js";
 
 const router = express.Router();
-const productContainer = new ProductContainer(__dirname + "/data/products.txt");
+const productContainer = new ProductContainer(__dirname + "/data/products.json");
 
 const filePath = (filename) => {
   const urlBase = process.env.URLBASE || "http://localhost:8080";

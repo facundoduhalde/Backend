@@ -28,5 +28,15 @@
     "thumbnail": "http://localhost:8080/images/1650910828921.png",
     "id": 3,
     "timestamp": 1650910828929
+  },
+  {
+    "title": "Producto 4",
+    "price": 9999,
+    "description": "Descripcion Producto 4",
+    "code": "4",
+    "stock": 999,
+    "thumbnail": "http://localhost:8080/images/1650930103180.png",
+    "id": 4,
+    "timestamp": 1650930103186
   }
 ]

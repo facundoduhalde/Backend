@@ -4,8 +4,8 @@ import ProductContainer from "./../classes/ProductContainer.js";
 import { __dirname, returnMessage } from "../utils.js";
 
 const router = express.Router();
-const cartContainer = new CartContainer(__dirname + "/data/carts.txt");
-const productContainer = new ProductContainer(__dirname + "/data/products.txt");
+const cartContainer = new CartContainer(__dirname + "/data/carts.json");
+const productContainer = new ProductContainer(__dirname + "/data/products.json");
 
 router.post("/", async (req, res) => {
   const products = req.body.products.map(Number);
