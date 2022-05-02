@@ -1,0 +1,30 @@
+{
+  "name": "desafio-clase-16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon server.js",
+		"start": "node server.js",
+		"migrate": "npx knex migrate:latest"
+	},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.5",
+    "hbs": "^4.2.0",
+    "knex": "^2.0.0",
+    "moment": "^2.29.3",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.5.0",
+    "sqlite3": "^5.0.6"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.16"
+  }
+}
