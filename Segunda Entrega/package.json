@@ -1,0 +1,23 @@
+{
+  "name": "segunda-entrega",
+  "version": "1.0.0",
+  "description": "Segunda entrega del Proyecto Final",
+  "author": "Facundo Duhalde",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --inspect ./src/server.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "nodemon": "^2.0.16"
+  }
+}
