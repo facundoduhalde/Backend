@@ -12,7 +12,7 @@ app.use('/api/productos', productRouter);
 app.use('/api/carrito', cartRouter);
 
 const server = app.listen(PORT, () => {
-    console.log(` >>>>> 🚀 Server started at http://localhost:${PORT}`)
+    console.log(`Servidor iniciado en http://localhost:${PORT}`)
     })
     
 server.on('error', (err) => console.log(err));

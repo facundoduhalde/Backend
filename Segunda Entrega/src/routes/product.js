@@ -11,7 +11,7 @@ router.get('/', async (_req, res) => {
     const products = await productoDao.getAll();
     products
         ? res.status(200).json(products)
-        : res.status(400).json({"error": "there was a problem when trying to get the products"})
+        : res.status(400).json({"error": "Ocurrio un error al obtenerer todos los productos"})
     
 })
 
@@ -23,7 +23,7 @@ router.get('/:id', async(req, res) => {
     
     product
         ? res.status(200).json(product)
-        : res.status(400).json({"error": "product not found"})
+        : res.status(400).json({"error": "Producto no encontrado"})
     
 })
 
@@ -34,8 +34,8 @@ router.post('/', authMiddleware, async (req,res) => {
     const newProduct = await productoDao.createProduct(body);
     
     newProduct
-        ? res.status(200).json({"success": "Product added with ID " + newProduct._id})
-        : res.status(400).json({"error": "there was an error, please verify the body content match the schema"})
+        ? res.status(200).json({"success": "Producto agregado con ID " + newProduct._id})
+        : res.status(400).json({"error": "Ocurrio un error"})
     
 })
 
@@ -46,8 +46,8 @@ router.put('/:id', authMiddleware, async (req,res) => {
     const wasUpdated = await productoDao.updateProductById(id, body);
     
     wasUpdated
-        ? res.status(200).json({"success" : "product updated"})
-        : res.status(404).json({"error": "product not found or invalid body content."}) 
+        ? res.status(200).json({"success" : "Producto actualizado"})
+        : res.status(404).json({"error": "Producto no encontrado o el contenido no es valido"}) 
 })
 
 
@@ -58,8 +58,8 @@ router.delete('/:id', authMiddleware, async (req,res) => {
     const wasDeleted = await productoDao.deleteProductById(id)
 
     wasDeleted 
-        ? res.status(200).json({"success": "product successfully removed"})
-        : res.status(404).json({"error": "product not found"})
+        ? res.status(200).json({"success": "Producto eliminado con exito"})
+        : res.status(404).json({"error": "Producto no encontrado"})
 })
 
 

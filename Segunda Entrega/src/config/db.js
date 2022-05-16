@@ -5,8 +5,8 @@ dotenv.config();
 
 mongoose.connect(process.env.MONGO_URI, (err) => {
     err
-        ? console.log("⛔ Error al conectarse a MongoDB")
-        : console.log("🆗 Conectados a MongoDB")
+        ? console.log("Error al conectarse a MongoDB")
+        : console.log("Conectado a MongoDB")
 })
 
 export default mongoose;
