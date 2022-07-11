@@ -1,0 +1,126 @@
+[2022-07-11T19:24:25.357] [ERROR] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u19-20020a056871059300b0010cb6fa9166sm1056040oan.0 - gsmtp
+    at SMTPConnection._formatError (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:1539:34)
+    at SMTPConnection.<anonymous> (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:543:26)
+    at SMTPConnection._processResponse (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:191:44)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials u19-20020a056871059300b0010cb6fa9166sm1056040oan.0 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2022-07-11T19:28:14.865] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor p4-20020a9d76c4000000b0061c24cd628bsm3056935otl.7 - gsmtp
+    at SMTPConnection._formatError (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:1539:34)
+    at SMTPConnection.<anonymous> (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:543:26)
+    at SMTPConnection._processResponse (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:191:44)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor p4-20020a9d76c4000000b0061c24cd628bsm3056935otl.7 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2022-07-11T19:30:06.052] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor x11-20020a056870e38b00b0010c289aafbcsm3761121oad.16 - gsmtp
+    at SMTPConnection._formatError (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:1539:34)
+    at SMTPConnection.<anonymous> (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:543:26)
+    at SMTPConnection._processResponse (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:191:44)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor x11-20020a056870e38b00b0010c289aafbcsm3761121oad.16 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2022-07-11T19:33:56.659] [ERROR] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y10-20020a9d518a000000b00616a2aa298asm3048862otg.75 - gsmtp
+    at SMTPConnection._formatError (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:1539:34)
+    at SMTPConnection.<anonymous> (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:543:26)
+    at SMTPConnection._processResponse (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:191:44)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials y10-20020a9d518a000000b00616a2aa298asm3048862otg.75 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2022-07-11T19:36:30.266] [ERROR] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t19-20020a056871055300b0010173875df2sm3739222oal.58 - gsmtp
+    at SMTPConnection._formatError (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:1539:34)
+    at SMTPConnection.<anonymous> (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:543:26)
+    at SMTPConnection._processResponse (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:191:44)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials t19-20020a056871055300b0010173875df2sm3739222oal.58 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2022-07-11T19:36:59.628] [ERROR] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10-20020a0568080b2a00b0033a11fcb23bsm563831oij.27 - gsmtp
+    at SMTPConnection._formatError (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:1539:34)
+    at SMTPConnection.<anonymous> (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:543:26)
+    at SMTPConnection._processResponse (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:191:44)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials t10-20020a0568080b2a00b0033a11fcb23bsm563831oij.27 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2022-07-11T19:42:03.035] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor g30-20020a544f9e000000b003351fa55a58sm3322895oiy.16 - gsmtp
+    at SMTPConnection._formatError (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:787:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:1539:34)
+    at SMTPConnection.<anonymous> (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:543:26)
+    at SMTPConnection._processResponse (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:950:20)
+    at SMTPConnection._onData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:752:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\duhaldefe\Desktop\Carrera Full Stack Coder\Coderhouse -Backend\Tercer Entrega\node_modules\nodemailer\lib\smtp-connection\index.js:191:44)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor g30-20020a544f9e000000b003351fa55a58sm3322895oiy.16 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
